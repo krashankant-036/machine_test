@@ -1,0 +1,175 @@
+/* ===================================page1=======================csss */
+
+/* .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   */
+  .main1 {
+    position: relative; /* This allows the overlay content to be positioned relative to this container */
+    width: 100%;
+    margin-top: 20px;
+    /* height: 800px; Set max-width to control image size */
+  }
+  
+  .main1 img {
+    width: 100%;
+    height: 350px;
+  }
+
+.overLay{
+     position: absolute;
+     color: white;
+     text-align: center;
+   }
+.overLay h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    padding-left: 220px;
+    padding-top: 120px;
+}
+.overLay .btn1{
+    height: 40px;
+    width: 100px;
+    margin-left: 180px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* ---------------main------------------------ */
+.main2 h2{
+    padding-left: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* -------------------------------------conatiner--------------------- */
+
+.contained{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem;
+}
+.container1 .btn1{
+    background-color: rgb(48, 48, 240);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.br1{
+    background-color: gray;
+}
+
+
+/* ======================================= page2  css =====================================csss */
+
+.main2-first{
+    text-align: center;
+    justify-content: center;
+}
+.main2-sec{
+    display: flex;
+    padding: 3rem;
+}
+
+/* ============================================page3 css========================== */
+.main3-first{
+    text-align: center;
+    justify-content: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem;
+  
+}
+
+.cards .card1{
+    border: 1px solid gray;
+    margin: 20px;
+  
+}
+
+.cards .card1 h1{
+    padding: 1rem;
+}
+.cards .card1 p{
+    padding: 1rem;
+}
+.cards .card1 img{
+    width: 100%;
+}
+.cards .card2{
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.cards .card2 img{
+    width: 100%;
+}
+.cards .card2 h1{
+    padding: 1rem;
+}
+.cards .card2 p{
+    padding: 1rem;
+}
+.cards .card3{
+    border: 1px solid gray;
+    margin: 20px;
+}
+.cards .card3 img{
+    width: 100%;
+}
+
+.cards .card3 h1{
+    padding: 1rem;
+}
+.cards .card3 p{
+    padding: 1rem;
+}
+
+
+
+/* ===========================================================page 4 css=================== */
+
+.main4-first{
+    text-align: center;
+    justify-content: center;
+}
+.boxing{
+    border: 1px solid gray;
+    height: 300px;
+    width: 500px;
+    margin: 0 100px ;
+    margin-left: 380px;
+    margin-bottom: 20px;
+    margin-bottom: 3rem;
+}
+
+.boxing .boxes{
+    padding: 3rem;
+}
+
+.boxing .boxes .fname{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+}
+.boxing .boxes .btn1{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}

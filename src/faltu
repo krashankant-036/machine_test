@@ -1,0 +1,23 @@
+verlay {
+    position: absolute; /* Positions the overlay content */
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Adjusts position to exact center */
+    color: white;
+    text-align: center;
+  }
+  
+  .join-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .join-btn:hover {
+    background-color: #0056b3;
+  }

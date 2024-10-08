@@ -1,0 +1,48 @@
+.foots footer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    background-color:#1a1a1a ;
+    color: white;
+}
+
+.foots .btn1{
+    padding: 3rem;
+    display: grid;
+   
+}
+.foots .btn1 .login{
+    margin: 20px;
+    height: 40px;
+    width: 110px;
+    background-color: rgb(242, 242, 248);
+    color: rgb(17, 12, 113);
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.foots .btn1 .reg{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(13, 13, 145);
+    color: rgb(243, 242, 247);
+    border-radius: 12px;
+    margin-left: 12px;
+}
+.phons{
+    margin: 0;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+
+}
+.phons span {
+    gap: 30px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.icon {
+    margin: 0 10px; /* Adjust the values as needed for desired spacing */
+}
